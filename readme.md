@@ -75,7 +75,7 @@ queryString.parse('foo[]=1&foo[]=2&foo[]=3', {arrayFormat: 'bracket'});
 - `index`: stands for parsing taking the index into account, such as:
 
 ```js
-queryString.parse('foo[0]=1&foo[1]=2&foo[3]=3', {arrayFormat: 'index'});
+queryString.parse('foo[0]=1&foo[1]=2&foo[2]=3', {arrayFormat: 'index'});
 //=> foo: [1,2,3]
 ```
 
